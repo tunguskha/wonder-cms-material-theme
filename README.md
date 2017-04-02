@@ -1,5 +1,5 @@
-# WONDER CMS MATERIAL THEME
+# WonderCMS MATERIAL THEME
 
-A simple Material theme for Wonder CMS
+A simple Material theme for WonderCMS
 
 ![Screenshot Preview](http://tungu.me/extras/imgs/screen-preview.jpg)
