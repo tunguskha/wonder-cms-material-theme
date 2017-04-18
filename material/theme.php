@@ -13,8 +13,7 @@
 
 </head>
 <body>
-	<?=wCMS::alerts()?>
-	<div class="settings-margin"><?=wCMS::settings()?></div>
+	<div class="settings-margin"><?=wCMS::alerts()?><?=wCMS::settings()?></div>
 
 	<nav class="navbar navbar-default navbar-fixed-top" style="background: white">
 		<div class="container">
