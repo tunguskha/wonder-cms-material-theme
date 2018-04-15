@@ -6,15 +6,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
-		<?=wCMS::get('config','siteTitle')?> -
-			<?=wCMS::page('title')?>
+		<?=wCMS::get('config','siteTitle')?> - <?=wCMS::page('title')?>
 	</title>
 	<meta name="description" content="<?=wCMS::page('description')?>">
 	<meta name="keywords" content="<?=wCMS::page('keywords')?>">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?=wCMS::asset('css/style.css')?>">
 	<?=wCMS::css()?>
-
 </head>
 
 <body>
@@ -33,13 +31,11 @@
 				</button>
 					<a class="navbar-brand" href="<?=wCMS::url()?>">
 						<?=wCMS::get('config','siteTitle')?>
-
 					</a>
 				</div>
 				<div class="collapse navbar-collapse" id="menu-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<?=wCMS::menu()?>
-
 					</ul>
 				</div>
 			</div>
@@ -77,8 +73,7 @@
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/jquery.autosize/3.0.17/autosize.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<?=wCMS::js()?>
 
 </body>
